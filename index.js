@@ -170,7 +170,6 @@ clearAllBtn.addEventListener("dblclick", function () {
 });
 
 // Filter and render notes matching the search keyword
-inputSearchEl.addEventListener("input", findMatchNote);
 searchBtn.addEventListener("click", findMatchNote);
 
 function findMatchNote() {
