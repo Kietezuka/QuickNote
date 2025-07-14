@@ -176,7 +176,7 @@ function findMatchNote() {
   const keyword = inputSearchEl.value.trim();
   const regexp = new RegExp(keyword, "ig");
   const matchedNote = allNotes.filter((note) =>
-    regexp.test(`${note.title} ${note.noteBody} ${note.category} ${note.date}`)
+    regexp.test(`${note.title} ${note.noteBody} ${note.category} `)
   );
   noteSections.innerHTML = "";
   uniqueDate = new Set();
