@@ -37,6 +37,10 @@ body {
 button {
   width: 100px;
 }
+
+#clearAll-btn {
+  width: 200px;
+}
 #input-search,
 #memo-text,
 .show-title-section,
